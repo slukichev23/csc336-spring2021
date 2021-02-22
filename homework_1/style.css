@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+  background-color: #f2f2f2;
+}
+
+#container {
+  width: 1200px;
+  height: 1450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#big_title {
+  font-size: 80px;
+  font-family: 'Dancing Script', cursive;
+  color: #7d0d05;
+}
+
+
+#navigation {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nav-links {
+  width: 950px;
+  height: 50px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  background-color: orangered;
+}
+
+#nav-links li a{
+  font-size: 24px;
+  color: white;
+  font-family: arial;
+  text-decoration: none;
+}
+
+#nav-links li a:hover {
+  color: #e96133;
+}
+
+#nav-links li a:visited {
+  color: #672526;
+}
+
+#nav-and-socials {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#socials {
+  width: 990px;
+  height: 75px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+#socials a img{
+  height: 50px;
+  width: 50px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#content {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+#image {
+  width: 100%;
+}
+#image img{
+  width: 100%;
+  height: 100%;
+}
+
+#logo {
+  width: 200px;
+  height: 150px;
+}
+
+#logo img {
+  height: 100%;
+  width: 150px;
+}
+
+#information {
+  border-top: 2px solid orange;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#information div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orangered;
+  width: 398px;
+}
+
+#information div p, a{
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+#newsletter {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#newsletter p {
+  font-size: 16px;
+  color: #7d0d05;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+
+}
+
+#footer p {
+  color: #7d0d05;
+  font-size: 18px;
+}
+
+#validation-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#validation-images img {
+  height: 50px;
+  width: 100px;
+}
