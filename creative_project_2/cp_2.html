@@ -18,11 +18,11 @@
     <h2>
       How to play:
     </h2>
-    <p>
-      sample text
+    <p id="game-objective">
+      The goal of the game is to get three of your symbols in a row, either row-wise, column-wise, or diagonally.
     </p>
     <p>
-      bottom text
+      Have fun!
     </p>
     <button id="play-btn">Play</button>
 
@@ -30,7 +30,7 @@
 
   <section id="game-view" class="view-box hidden">
 
-    <p>Time: <span id="timer">00:00</span></p>
+    <p id="timer">Time: 00:00</p>
 
     <!-- <div id="game-board">
 
@@ -39,13 +39,12 @@
   </section>
 
   <section id="stats-view" class="view-box hidden">
-    <p>Stat: <span>0</span></p>
-    <p>Stat: <span>0</span></p>
-    <p>Stat: <span>0</span></p>
-    <p>Stat: <span>0</span></p>
-    <p>Stat: <span>0</span></p>
-    <p>Stat: <span>0</span></p>
-    <p>Stat: <span>0</span></p>
+    <p>Games Played: <span id="games-played">0</span></p>
+    <p>Wins: <span id="wins">0</span></p>
+    <p>Losses: <span id="losses">0</span></p>
+    <p>Win Percentage: <span id="win-percentage">0</span></p>
+    <p>Average Time: <span id="avg-time">0</span></p>
+		<button id="return-to-game">Return</button>
   </section>
 
 </body>

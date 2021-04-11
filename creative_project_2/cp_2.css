@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
   background-image: url("images/space-background.jpg")
 }
@@ -5,6 +7,33 @@ body {
 h1 {
   color: white;
   margin-bottom: 100px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+p {
+  font-family: 'Press Start 2P', cursive;
+}
+
+#game-objective {
+  text-align: center;
+
+}
+
+button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  background-color: cyan;
+  margin: 10px;
+
 }
 
 .hidden {
